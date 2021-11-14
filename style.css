@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@ header{
     color: white;
 }
 header,footer{
-    max-width: 100%;
+   max-width: 100%;
 }
 nav ul{
     display: flex;
@@ -29,10 +30,10 @@ color: white;
 }
 nav li{
     list-style: none;
-    font-size: .1.2rem;
+    font-size: 1.2rem;
 }
 nav li > *{
-    margin-left: 1em;
+    margin-left: .8em;
 }
 nav a{
     color: white;
@@ -53,9 +54,10 @@ footer{
     
 }
 
-@media(max-width:380px){
+@media(max-width:420px){
 header{
     flex-direction: column;
+    justify-content: space-evenly;
     
 }
 .logo,nav ul{
@@ -80,9 +82,5 @@ footer{
     flex-direction: column;
     align-items: center;
     }
-    nav li{
-        width: 100%;
-        padding: 3px;
-       
-    }
+   
 }
